@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM FACTOR | High-Performance Web Forms</title>
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --accent: #3498db;
+            --bg: #f4f7f6;
+            --text: #333;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text);
+            background-color: var(--bg);
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: var(--primary);
+            color: white;
+            padding: 3rem 1rem;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            letter-spacing: 2px;
+            font-size: 2.5rem;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .intro {
+            text-align: center;
+            margin-bottom: 3rem;
+            font-size: 1.1rem;
+            color: #666;
+        }
+
+        /* Project Grid */
+        .project-card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            margin-bottom: 3rem;
+            overflow: hidden;
+            border: 1px solid #ddd;
+        }
+
+        .project-image {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-bottom: 1px solid #eee;
+        }
+
+        .project-content {
+            padding: 1.5rem;
+        }
+
+        .project-content h2 {
+            margin-top: 0;
+            color: var(--primary);
+        }
+
+        .tag-row {
+            margin: 1rem 0;
+        }
+
+        .tag {
+            background: #e1e8ed;
+            padding: 0.3rem 0.7rem;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            margin-right: 5px;
+            display: inline-block;
+        }
+
+        .btn {
+            display: inline-block;
+            background: var(--accent);
+            color: white;
+            padding: 0.6rem 1.2rem;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: opacity 0.2s;
+        }
+
+        .btn:hover {
+            opacity: 0.8;
+        }
+
+        footer {
+            text-align: center;
+            padding: 4rem 1rem;
+            background: #eee;
+            margin-top: 4rem;
+        }
+
+        footer a {
+            color: var(--accent);
+            font-weight: bold;
+        }
+
+        /* Mobile Optimization */
+        @media (max-width: 600px) {
+            header h1 { font-size: 1.8rem; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>FORM FACTOR</h1>
+    <p>Precision Data Entry | Lightweight Architecture</p>
+</header>
+
+<div class="container">
+    <div class="intro">
+        <p>I specialize in bespoke, static-first web forms. No heavy frameworks. No unnecessary tracking. Just fast, accessible, and secure interfaces that convert users into data.</p>
+    </div>
+
+    <div class="project-card">
+        <img src="form1.png" alt="Lead Generation Form Preview" class="project-image">
+        <div class="project-content">
+            <h2>01. Frictionless Lead Capture</h2>
+            <p>Designed for speed and high completion rates. This form eliminates cognitive load by using clear visual signposts and minimalist input fields.</p>
+            <div class="tag-row">
+                <span class="tag">HTML5</span>
+                <span class="tag">CSS-Only</span>
+                <span class="tag">Mobile-Ready</span>
+            </div>
+            <a href="form1.html" class="btn">View Live Demo</a>
+        </div>
+    </div>
+
+    <div class="project-card">
+        <img src="form2.png" alt="Technical Registration Form Preview" class="project-image">
+        <div class="project-content">
+            <h2>02. Technical Registration Suite</h2>
+            <p>A high-density data collection tool tailored for technical events. Organized with CSS Grid to maintain clarity even when requesting complex information.</p>
+            <div class="tag-row">
+                <span class="tag">Semantic HTML</span>
+                <span class="tag">Grid Layout</span>
+                <span class="tag">Secure Entry</span>
+            </div>
+            <a href="form2.html" class="btn">View Live Demo</a>
+        </div>
+    </div>
+
+    <div class="project-card">
+        <img src="form3.png" alt="Minimalist Contact Form Preview" class="project-image">
+        <div class="project-content">
+            <h2>03. Micro-Luxe Contact Point</h2>
+            <p>A minimalist interface designed for high-end aesthetic sites where the form must blend seamlessly with the brand's visual identity.</p>
+            <div class="tag-row">
+                <span class="tag">Accessibility-First</span>
+                <span class="tag">Ultra-Light</span>
+                <span class="tag">Fast Loading</span>
+            </div>
+            <a href="form3.html" class="btn">View Live Demo</a>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <h3>Start a Project</h3>
+    <p>Need a custom, lightweight form for your business?</p>
+    <a href="mailto:gwmedya@gmail.com">gwmedya@gmail.com</a>
+</footer>
+
+</body>
+</html>
